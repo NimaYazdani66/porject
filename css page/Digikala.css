@@ -1,0 +1,658 @@
+@font-face {
+    font-family: "nimafont";
+    src:
+      local("nimafont"),
+      url("../nimafont/Yekan.ttf") format("opentype") tech(color-COLRv1),
+      url("../nimafont/Yekan.ttf") format("opentype"),
+      url("../nimafont/Yekan.ttf") format("woff");
+  }
+  *{
+    font-family: nimafont;
+  }
+  body{
+   background-color: gainsboro;
+   overflow-x: hidden;
+  }
+  header{
+    position: fixed;top: 0px; z-index: 1000;
+    box-shadow: 0px 0px 15px silver;
+   
+  }
+  .logo{
+  position: relative;right: 40px;
+  }
+  .search{
+    height: 30px;width: 70%;
+    position: relative;bottom: 2px;left: 15px;
+    border-style: none;font-size: smaller;
+    padding-right: 30px;
+  }
+  .ic{
+     position: relative;bottom: 3px;right: 18px;     z-index: 10;
+  }
+ .login{
+    position: absolute; right: 220px;border-radius: 3px;height: 35px;
+    border-style: groove;border-color: rgb(255, 255, 255); border-radius: 5px;
+ }
+ .buy{
+    position: relative;right: 350px; top: 5px;
+    border-radius: 2px;border-style: none;border-color: rgb(251, 251, 251);
+          border-right-style: groove;
+          padding-right: 10px;
+ }
+ .dropdown{
+    position: relative;z-index: 10000; 
+ }
+ .dropdown-menu{
+    height: 300px;width: 60%; 
+ }
+ .image{
+    margin-left: 50px;
+ }
+ .h5{
+    margin-left: 100px;
+ }
+.label{
+    position: relative;left: 30px; width: 120%;
+}
+.p{
+    position: relative;left: 180px;
+}
+.ops{
+    height:30px;width: 80%;margin-left: 30px;margin-top: 20px;
+}
+.vor{
+    height: 50px;width: 100%; margin-top: 30px;margin-left: 30px;background-color: crimson;
+    border-radius: 5px;border-style: none;color: aliceblue;
+}
+.nav{
+   position: relative;bottom: 8px;
+}
+.nav>li{
+    margin-left: 30px;padding-bottom: 5px;
+}
+.nav>li:hover{
+   border-bottom-style: groove;border-bottom-color: crimson;
+   border-bottom-width: 2px;
+}
+.nav>span{
+   position: relative;left: 20px;top: 1px;
+}
+.das{
+   text-decoration: none;color: black;
+}
+.das1{
+   text-decoration: none;color: black; font-size: small; 
+}
+.a{
+   height: 30px;
+}
+.locat{
+   position: relative;bottom: 7px;
+   border-style: none;
+}
+.qof{
+   height: 150px;margin-top: 90px;
+   position: relative;
+}
+.mwa{
+   display: flex; height: 135px; position: relative;bottom: 5px;
+   overflow-x:auto;
+   overflow-y:hidden ;
+   
+}
+.mw1{
+   height: 125px;width: 8%;
+   margin-left: 10px;position: relative;bottom: 15px;
+}
+.porsh{
+   border-radius: 50%; border-style: groove;border-color: crimson;margin-right: 10px;
+}
+.matn{
+   font-size: small;text-align: center;
+}
+.mw1>a{
+   text-decoration: none;color: black;
+}
+.ig{
+   margin-top: 2px;
+}
+.item1{
+   height: 100px;width: 100%;background-color: rgb(255, 255, 255);position: relative;bottom: 10px;
+}
+.item{
+   display: flex;position: relative;right: 20px;
+}
+.post{
+   height: 90px;width: 80%; background-color: rgb(243, 243, 243); margin-left: 80px; margin-top: 5px;
+}
+.pic{
+   margin-right:20px;margin-top: 5px;
+}
+.magh{
+   text-align: center;font-size: small;
+}
+.more{
+   border-radius: 80%;margin-right: 14px;margin-top: 5px;border-style: none;
+}
+.xz{
+   height: 325px; border-top-left-radius: 10px;border-bottom-left-radius: 10px;
+}
+.xz1{
+   height: 325px; border-top-right-radius: 10px;border-bottom-right-radius: 10px;
+}
+.xz1>h3{
+width: 10%;margin-right: 52px; margin-top: 10px;
+}
+.xz1>img{
+   height: 150px;width: 150px;
+   position: relative;right: 8px;
+}
+.xz1>button{
+   border-style: none;position: relative;right: 40px;
+   color: aliceblue;
+}
+.carousel{
+   position: relative;top: 10px;
+}
+.card-group{
+   height: 280px;
+}
+.carousel-control-prev{
+   position: relative;top: 500px;
+}
+.cc{
+   width:70%;margin-right: 150px;
+}
+.left{
+   margin-top: 70px;margin-right: 85px;
+}
+.see{
+   border-style: none;font-size: large;
+   margin-top: 15px;margin-right: 50px;
+}
+.ff{
+   margin-right: 70px;
+}
+del{
+   position: relative;bottom: 15px;right: 100px;
+}
+.badge{
+   position: relative;bottom: 40px;left: 70px;
+}
+.fff{
+   margin-right: 60px;
+}
+.amazing{
+   display: flex;margin-top: 40px;
+}
+.ama1{
+   height: 60px;width: 40%;
+}
+.ama2{
+   height: 60px;width: 40%; 
+}
+.ama3{
+   background-color: greenyellow;
+       height: 60px;width: 20%;
+       border-top-left-radius: 40px;
+       border-bottom-left-radius: 40px;
+}
+.bama{
+   border-style: none;background-color: rgb(73, 227, 73);
+   border-radius: 15px;color: aliceblue;position: relative;top: 3px;right: 10px;
+}
+.agh{
+   
+   position: relative;top: 4px;;right: 130px;
+}
+.badge1{
+   border-radius: 5px;font-size: small;    position: relative;right: 70px;top: 25px;
+   z-index: 1;
+}
+.igi{
+   border-style: none;border-radius: 10px;color: rgb(10, 255, 6);
+   margin-top: 20px;margin-right:80px;
+}
+.aks{
+   margin-top: 20px;
+}
+.you{
+  
+   display: flex;flex-direction: row; flex-wrap: wrap;
+}
+
+.feh1{
+   margin-left: 35px;margin-top: 50px;    background-color: rgb(255, 255, 255);
+   height:125px;width: 150px; position: relative;bottom: 30px;
+}
+.asas>h3{
+text-align: center;margin-bottom: 40px;
+}
+.feh1>a{
+   text-decoration: none;
+}
+.feh1>a>p{
+   color: black;text-align: center;font-size: small;
+}
+.please{
+   display: flex;flex-direction: row;flex-wrap: wrap;background-color: aliceblue;border-radius: 20px;
+   box-shadow: 0px 0px 15px silver;margin-top: 30px;
+}
+.feh2{
+   margin-left: 20px;margin-top: 50px;    background-color: rgb(255, 255, 255);
+   height:125px;width: 150px; position: relative;bottom: 25px;right: 50px;
+}
+.feh2>a{
+   text-decoration: none;
+}
+.feh2>a>p{
+   color: black; text-align: center;margin-top: 10px;
+}
+.feh2>a>img{
+   margin-top: 5px;margin-right: 33px;
+}
+.kmw{
+   height: 190px;background-color: rgb(255, 255, 255); margin-top: 15px;
+}
+.kmc{
+   height:180px;background-color: rgb(244, 244, 244);box-shadow: 0px 0px 15px silver; border-radius: 10px;
+   position: relative;top: 5px;
+}
+.k7{
+   height: 100px;width: 14%;background-color: rgb(255, 255, 255); margin-top: 5px;border-radius: 10%;margin-left: 35px;
+ 
+}
+.alis{
+   height: 125px;background-color: rgb(255, 255, 255);position: relative;bottom: 5px;display: flex; width: 100%; overflow-x: scroll;
+   overflow-y: hidden;
+}
+.hj>h4{
+   text-align: center;
+}
+.lambor{
+   margin-top: 30px;
+}
+.lar{
+   height: 400px;background-color: rgb(255, 255, 255);box-shadow: 0px 0px 20px silver;display: flex;
+}
+.lar1{
+   margin-left: 20px;
+}
+.macan{
+   height: 380px;width: 25%;background-color: rgb(255, 255, 255);margin-top: 10px;
+}
+.mac{
+   height: 50px;
+}
+.mac>h5{
+   margin-right: 20px;
+}
+.mac>p{
+   color: silver;font-size: small;margin-right: 30px;
+}
+.mac1{
+   display: flex;flex-direction: row;flex-wrap: wrap;margin-top: 10px;
+}
+.mac2>button{
+   margin-top: 20px;margin-right: 115px;border-style: none;font-size: small;
+   color: rgb(69, 69, 211);
+}
+.lar11{
+   height: 400px;background-color: rgb(111, 6, 209);box-shadow: 0px 0px 10px silver;display: flex;border-radius: 10px;
+}
+.namino{
+  height: 350px;width: 30%;margin-top: 25px;   background-color: rgb(111, 6, 209);
+}
+.namino>h3{
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   margin-right: 20px;color: aliceblue;
+}
+.namino>p{
+   margin-right: 20px;color: aliceblue;
+}
+.namino>button{
+   border-color: aliceblue;border-style: groove; margin-right: 20px;position: relative;bottom: 10px;color: aliceblue;background-color: rgb(111, 6, 209);
+}
+.namino>img{
+   position: relative;bottom: 40px;right: 20px;
+}
+.rc{
+   height: 350px;width: 60%;background-color: rgb(255, 255, 255);margin-top: 30px;margin-right: 100px;
+   border-radius:10px ;
+}
+.rc1{
+   height: 50px;width: 100%;background-color: rgb(255, 255, 255);display: flex;margin-top:15px;
+}
+.rc1>h4{
+   margin-right: 10px;position: relative;top: 5px;
+}
+.rc1>button{
+   margin-right: 450px;height: 30px;margin-top: 10px;border-style: none;font-size: small;
+}
+.rc2{
+   display: flex;flex-direction: row;flex-wrap: wrap;margin-top: 20px;
+}
+.nose{
+   height: 100px;background-color: rgb(59, 61, 162);border-radius: 10px;
+   box-shadow: 0px 0px 15px silver;margin-top: 30px;
+   display: flex;
+}
+.norj{
+   height: 60px;width: 20%;background-color: aliceblue;
+   position: relative;right: 350px;
+   margin-top: 20px;
+   margin-left: 5px;
+}
+.norj1{
+   height: 60px;width: 20%;background-color: aliceblue;
+   position: relative;right: 350px;
+   margin-top: 20px;
+   margin-left: 5px;
+   border-top-right-radius: 10px;
+   border-bottom-right-radius: 10px;
+}
+.norj2{
+   height: 60px;width: 20%;background-color: aliceblue;
+   position: relative;right: 350px;
+   margin-top: 20px;
+   margin-left: 5px;
+   border-top-left-radius: 10px;
+   border-bottom-left-radius: 10px;
+}
+.norj1>p{
+   margin-right: 15px;margin-top: 15px;
+}
+.norj>p{
+   margin-right: 15px;margin-top: 15px;
+}
+.norj2>p{
+   margin-right: 15px;margin-top: 15px;
+}
+.pride{
+   margin-top: 30px;
+}
+.pride131{
+   height: 350px;width: 100%;background-color: rgb(255, 255, 255);
+   border-radius: 5px;
+   box-shadow: 0px 0px 15px silver;
+}
+.vi{
+   height: 50px;
+}
+.vi>p{
+   font-size: x-large; text-align: center;position: relative;top: 4px;
+}
+.vi>p>img{
+   margin-left: 5px;
+}
+.vi>button{
+    float: left;position: relative;bottom: 48px;left: 10px;
+   height: 40px;
+   border-style: none;
+   color: aqua;
+  
+}
+.vb{
+   display: flex;flex-direction: row; flex-wrap: wrap;
+}
+.fbi{
+   height: 80px;width: 25%;
+   background-color: rgb(255, 255, 255);
+   display: flex;
+   position: relative;top: 20px;right: 40px;
+   
+}
+.fbi>p{
+   margin-right: 10px;font-size: 13px;
+   margin-top: 20px;margin-left: 10px;
+}
+.fbi>span{
+   margin-top: 6px;
+   margin-right: 10px;
+   font-size: xx-large;
+   color: rgb(20, 206, 206);
+}
+.nm{
+   height: 900px;background-color: rgb(255, 255, 255);border-radius: 5px;
+   box-shadow: 0px 0px 15px silver;
+}
+.ur{
+   height: 50px;
+}
+.ur>p{
+   font-size: x-large;text-align: center;margin-top: 30px;position: relative;top: 10px;
+}
+.yr{
+   display: flex;flex-direction: row;flex-wrap: wrap;
+}
+.phone{
+   height: 250px;width: 16.66%;margin-top: 20px;
+   background-color: rgb(255, 255, 255);
+   position: relative;top: 10px;
+}
+.phone>p{
+   float: left;margin-left: 5px;
+   position: relative;left: 10px;
+}
+.phone>del{
+   position: relative;
+   top: 35px;
+   margin-right: 20px;
+   color: silver;
+}
+.phone>span{
+   padding: 3px;background-color: crimson;
+   border-radius: 10px;color: aliceblue;position: relative;right: 30px;
+}
+.bn{
+   margin-left: 50px;
+}
+.bref{
+   margin-top: 30px;
+}
+.brif{
+   height: 350px;background-color: rgb(255, 255, 255);width: 100%;
+   
+}
+.khan{
+   height: 50px;background-color: aliceblue;
+}
+.khan>button{
+   font-size: 15px;color: aqua;
+   float: left;
+   border-style: none;
+   position: relative;bottom: 30px;
+}
+.forc{
+   height: 270px;width: 90%;
+   background-color: rgb(255, 255, 255);
+   border-radius: 5px;
+   box-shadow: 0px 0px 15px silver;
+   margin-top: 10px;
+   margin-left: 10px;
+   position: relative;right: 100px;
+}
+.fort{
+   display: flex;
+}
+.forc>img{
+   height: 200px;
+   width: 100%;
+   border-top-right-radius: 5px;
+   border-top-left-radius: 5px;
+}
+.forc>p{
+   margin-top: 15px;margin-right: 10px;font-size: small;
+}
+.digikas{
+   height: 100px;width: 100%;
+   margin-top: 20px;
+}
+.digikas>img{
+   margin-top: 16px;
+}
+.texti{
+   display: flex;margin-top: 10px;
+   font-size: small;
+}
+.digikas>button{
+   float: left;
+   position: relative;bottom: 50px;left: 20px;
+   color: silver;
+   border-color: silver;
+   border-style: groove;
+   border-width: 1px;
+}
+.ddc{
+   display: flex;
+}
+.gaf{
+   height: 80px;width: 150px;
+   margin-left: 60px;
+   position: relative;right: 180px;top: 40px;
+   
+}
+.gaf>p{
+   font-size: small;width: 100%;text-align: center;
+}
+.gaf>img{
+   margin-right: 50px;
+}
+.kol{
+   display: flex;
+   height: 300px;
+   width: 100%;
+   background-color: rgb(255, 255, 255);
+   margin-top: 50px;
+}
+.jk{
+   margin-left: 50px;background-color: rgb(255, 255, 255);
+ position: relative;top: 50px;right: 50px;
+}
+.jk>ul{
+   list-style: none;margin-top: 15px;
+}
+.jk>ul>li{
+   margin-top: 15px;
+}
+.jk>ul>li>a{
+   text-decoration: none;color: silver;
+}
+.rt{
+   font-size: x-large;
+}
+.jk>p{
+   font-size: large;margin-top: 20px;
+}
+.sda{
+   display: flex;
+}
+.sda>img{
+   margin-left: 30px;position: relative;right: 100px; top: 20px;
+}
+.jk>label{
+   margin-top: 50px;text-align: center;position: relative;right: 60px;
+   font-size: large;
+}
+.jk>input{
+   position: relative;top: 20px;right: 60px;
+   width: 60%;
+   outline-style: none;
+   border-style: none;
+}
+.jk>input:focus{
+   color: crimson;
+   
+}
+.jk>a{
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+   position: relative;top: 20px;
+   padding: 10px;
+   background-color: slategray;
+   border-radius: 5px;right: 15px;
+}
+.cj{
+   height: 85px;
+   width: 90%;
+   background-color: rgb(37, 37, 129);
+   margin-top: 100px;
+   position: relative;right: 5%;
+   border-radius: 5px;
+   display: flex;
+}
+.cjj{
+   display: flex;width: 40%;
+}
+.cjjj{
+   width: 60%;
+   display: flex;
+}
+.cjj>img{
+   height: 60px;
+   margin-top: 14px;
+   margin-right: 70px;
+}
+.cjj>p{
+   margin-right: 70px;
+   margin-top: 25px;
+   color: aliceblue;
+   font-size: x-large;
+}
+.cjjj>div{
+   background-color: aliceblue;height: 50px;
+   border-radius: 10px;
+   position: relative;right: 100px;top: 20px;
+}
+.cjjj>img{
+   margin-left: 20px;
+   position: relative;top: 20px;
+   right: 100px;
+}
+.carl{
+   height: 300px;
+   width: 100%;
+   background-color: rgb(255, 255, 255);
+   display: flex;
+   margin-top: 20px;
+}
+.carl1{
+   height: 200px;width: 70%; 
+}
+.carl2{
+   height: 200px;width: 30%; 
+}
+.carl1>h3{
+   margin-right: 20px;
+   color: rgb(0, 0, 0);
+}
+.carl1>p{
+   margin-right: 20px;
+}
+.carl1>button{
+   margin-right: 40px;position: relative;top: 50px;border-style: none;
+   color: aqua;font-size: small;
+}
+.carl2>img{
+   margin-left: 40px;
+   position: relative;top: 40px;right: 30px;
+   border-style: groove;padding: 20px;border-width: 1px;
+   border-color: silver;
+   box-shadow: 0px 0px 15px silver;
+}
+.carl1>h6{
+   font-size: small;
+   position: relative;top: 120px;right: 250px;color: silver;
+}
+.daf{
+   display: flex;flex-direction: row;flex-wrap: wrap;
+   height: 200px;width: 100%;margin-top: 30px;
+}
+.daf>img{
+   margin-left: 60px;position: relative;right: 50px;top: 30px;
+}
+.cv{
+   
+   color: black;
+}
